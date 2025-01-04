@@ -1,8 +1,11 @@
+// mainwindow.h
+
 #include <QApplication>
 #include <QWidget>
 #include <QPushButton>
 #include <QLabel>
 #include <QVBoxLayout>
+#include <iostream>
 
 class MainWindow : public QWidget
 {
@@ -29,19 +32,10 @@ public:
         setLayout(layout);
         setWindowTitle("Qt5 Example");
     }
+
+    void PrintName();
+    void SetName(const std::string& name);
+
+private:
+    std::string m_name;
 };
-
-int main(int argc, char *argv[])
-{
-    QApplication app(argc, argv);
-
-    // 创建主窗口
-    MainWindow window;
-    window.resize(250, 150);
-    window.show();
-
-    return app.exec();
-}
-
-
-#include "main.moc"  // 添加这一行

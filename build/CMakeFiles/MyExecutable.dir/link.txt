@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/MyExecutable.dir/link.d CMakeFiles/MyExecutable.dir/src/main.cc.o -o MyExecutable  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.15 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.15

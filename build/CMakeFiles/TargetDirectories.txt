@@ -1,5 +1,0 @@
-/home/rawn/code/ProKeMoy/build/CMakeFiles/MyQtApp.dir
-/home/rawn/code/ProKeMoy/build/CMakeFiles/edit_cache.dir
-/home/rawn/code/ProKeMoy/build/CMakeFiles/rebuild_cache.dir
-/home/rawn/code/ProKeMoy/build/CMakeFiles/MyQtApp_autogen_timestamp_deps.dir
-/home/rawn/code/ProKeMoy/build/CMakeFiles/MyQtApp_autogen.dir

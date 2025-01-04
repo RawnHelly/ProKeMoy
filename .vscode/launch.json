@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Build ProKeMoy",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/Build_linux.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
@@ -27,9 +34,6 @@
                     "ignoreFailures": true
                 }
             ],
-            "env":{
-                "DISPLAY": "192.168.31.76:22.0"
-            }
-        },
+        }
     ]
 }
